@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="peacefulhunger"
+version="1.0.0"
+displayName="和平模式消耗饱食度"
+authors="MCMod"
+description='''让饱食度在和平难度下也能正常消耗：和平难度时，运动、战斗、挖掘等产生的饥饿消耗同样会扣减饱食度和饱和度，不再被和平难度的“无限回饱”抵消。'''
+
+[[dependencies.peacefulhunger]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.peacefulhunger]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
